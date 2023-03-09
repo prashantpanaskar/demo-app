@@ -17,6 +17,6 @@ export const loginRequest = {
 
 // Add the endpoints here for Microsoft Graph API services you'd like to use.
 export const graphConfig = {
-	graphMeEndpoint: 'https://jsonplaceholder.typicode.com/users',
+	graphMeEndpoint: 'https://graph.microsoft.com/v1.0/me',
 	usersEndpoint: 'https://jsonplaceholder.typicode.com/users',
 };
