@@ -29,7 +29,7 @@ export const SignInButton = () => {
 			color='secondary'
 			onClick={() => handleLogin('popup')}
 		>
-			Sign in to see Profile Data
+			Sign in to see Users Data
 		</Button>
 	);
 };
