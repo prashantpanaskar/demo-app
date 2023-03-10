@@ -17,7 +17,7 @@ export default function SearchBar(props) {
 	};
 
 	useEffect(() => {
-		searchText && searchText.length != 0
+		searchText && searchText.length !== 0
 			? onSearch(searchText)
 			: onCancelSearch();
 	}, [searchText]);
@@ -33,7 +33,7 @@ export default function SearchBar(props) {
 				InputProps={{
 					endAdornment: (
 						<InputAdornment position='end'>
-							{searchText && searchText.length != 0 ? (
+							{searchText && searchText.length !== 0 ? (
 								<IconButton
 									type='button'
 									sx={{ p: '10px' }}
